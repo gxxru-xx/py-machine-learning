@@ -72,4 +72,4 @@ for name, model in models:
     results.append(cv_results)
     names.append(name)
     msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
-    print(msg)
+    print(msg) 
